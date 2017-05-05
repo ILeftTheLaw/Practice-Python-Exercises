@@ -18,7 +18,7 @@ try:
     print("Here are the divisors of your number:")
     print(divisors)               
 
-except(ZeroDivisionError, ValueError):
+except(ZeroDivisionError, TypeError, ValueError):
     print("That is an invalid input.")        
             
 
